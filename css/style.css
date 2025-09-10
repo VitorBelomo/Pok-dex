@@ -1,0 +1,57 @@
+* {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+    width: 420px;
+    height: 85%;
+    background-color: rgb(150, 1, 1);
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.fundo {
+    position: absolute;
+    width: 400px;
+    height: 97%;
+    background-color: red;
+    transform: translate(4.7%, 0);
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.lado{
+    position: absolute;
+    width: 35px;
+    height: 102%;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 10px;
+    top: -1%;
+    transform: translate(1096%, 0);
+}
+
+.pokemon-wrapper{
+    position: absolute;
+    top: 22%;
+    width: 75%;
+    height: 34%;
+    clip-path: polygon(0% 80%, 20% 100%, 100% 100%, 100% 0%, 0% 0%);
+    background-color: #E3E3E3;
+    transform: translate(14.5%, 0);
+    border: 1px solid black;
+}
+
+
+
